@@ -1,0 +1,2 @@
+select p.productionlineno,wiporderno,completedquantity,coalesce(oc_barcode.value,'')ean13,coalesce(oc_variant.value,'')variant from wip_order wo left join av_rpt_po_characteristics oc_barcode on oc_barcode.orderno=wo.orderno and oc_barcode.charateristic='zppi_spa_no_of_bar_code_sc'
+left join av_rpt_po_characteristics oc_variant on wo.orderno=oc_variant.orderno and oc_variant.characteristic='zppi_spa_bar_code_variant' where  workorderstatus=2 and wipordertype=23 and productionlineno like '%pk%'
