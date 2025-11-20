@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <Servername>pmiididnw03091\sqlexpress</Servername>
+    <Username>hms</Username>
+    <Password>GHsauDGEclKIB5CbaQHCNw==</Password>
+    <Database>BarcodeTracking</Database>
+    <DatabaseRFID>NewRFID2014</DatabaseRFID>
+    <ComPortIn>COM3</ComPortIn>
+    <MachineName>MI16</MachineName>
+    <TagDelay>70</TagDelay>
+  </Table1>
+</NewDataSet>
